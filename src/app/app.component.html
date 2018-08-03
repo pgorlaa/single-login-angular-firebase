@@ -1,0 +1,18 @@
+<mat-toolbar class="top-bar">
+    <span>My Application</span>
+
+    <span *ngIf="authService.user | async" class="user-menu">
+        <h1>{{ (authService.user | async)?.displayName }}</h1>
+
+        <mat-icon (click)="logout()" title="logout">exit_to_app</mat-icon>
+    </span>
+</mat-toolbar>
+
+<!-- 
+<nav>
+    <a routerLink="/projects">Heroes</a>
+</nav> -->
+
+<router-outlet>
+
+</router-outlet>

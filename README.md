@@ -1,1 +1,1 @@
-# single-login-angular-firebase
+Single Firebase Google authentication

@@ -1,0 +1,15 @@
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+
+    .user-menu {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        mat-icon {
+            margin-left: 10px;
+            cursor: pointer;
+        }
+    }
+}
